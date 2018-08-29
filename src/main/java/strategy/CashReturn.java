@@ -19,8 +19,8 @@ public class CashReturn extends CashSuper {
 
     private BigDecimal moneyReturn = BigDecimal.ZERO;
 
-    public CashReturn(BigDecimal meneyCondition, BigDecimal moneyReturn) {
-        this.moneyCondition = meneyCondition;
+    public CashReturn(BigDecimal moneyCondition, BigDecimal moneyReturn) {
+        this.moneyCondition = moneyCondition;
         this.moneyReturn = moneyReturn;
     }
 
