@@ -1,6 +1,4 @@
-package Strategy;
-
-import com.sun.tools.internal.xjc.reader.xmlschema.bindinfo.BIGlobalBinding;
+package strategy;
 
 import java.math.BigDecimal;
 
@@ -8,7 +6,7 @@ import java.math.BigDecimal;
  * 返利收费子类
  *
  * @ProjectName: design-patterns
- * @Package: Strategy
+ * @Package: strategy
  * @ClassName:
  * @Description: 如:满300减100
  * @Author: zhenglinyong

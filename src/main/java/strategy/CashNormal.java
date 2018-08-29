@@ -1,4 +1,4 @@
-package Strategy;
+package strategy;
 
 import java.math.BigDecimal;
 
@@ -6,7 +6,7 @@ import java.math.BigDecimal;
  * 正常收费子类
  *
  * @ProjectName: design-patterns
- * @Package: Strategy
+ * @Package: strategy
  * @ClassName:
  * @Description:
  * @Author: zhenglinyong

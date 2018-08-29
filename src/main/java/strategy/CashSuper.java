@@ -1,4 +1,4 @@
-package Strategy;
+package strategy;
 
 import java.math.BigDecimal;
 
@@ -6,7 +6,7 @@ import java.math.BigDecimal;
  * 现金收费抽象类
  *
  * @ProjectName: design-patterns
- * @Package: Strategy
+ * @Package: strategy
  * @ClassName:
  * @Description:
  * @Author: zhenglinyong
@@ -16,7 +16,7 @@ import java.math.BigDecimal;
  **/
 abstract class CashSuper {
     /**
-     *
+     * 公共的算法接口
      * @param money
      * @return
      */

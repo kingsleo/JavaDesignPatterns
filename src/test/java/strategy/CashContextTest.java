@@ -1,16 +1,14 @@
-package Strategy;
+package strategy;
 
 import org.junit.Test;
 
 import java.math.BigDecimal;
 
-import static org.junit.Assert.*;
-
 /**
  * java类简单作用描述
  *
  * @ProjectName: design-patterns
- * @Package: Strategy
+ * @Package: strategy
  * @ClassName:
  * @Description:
  * @Author: zhenglinyong
