@@ -15,20 +15,20 @@ import java.math.BigDecimal;
  * Copyright: Copyright (c) 2018
  **/
 public class CashReturn extends CashSuper {
-    private BigDecimal meneyCondition = BigDecimal.ZERO;
+    private BigDecimal moneyCondition = BigDecimal.ZERO;
 
     private BigDecimal moneyReturn = BigDecimal.ZERO;
 
     public CashReturn(BigDecimal meneyCondition, BigDecimal moneyReturn) {
-        this.meneyCondition = meneyCondition;
+        this.moneyCondition = meneyCondition;
         this.moneyReturn = moneyReturn;
     }
 
     @Override
     public BigDecimal acceptCash(BigDecimal money) {
         BigDecimal result = money;
-        if (money.compareTo(meneyCondition) >= 0) {
-            result = money.divide(meneyCondition, 2, BigDecimal.ROUND_HALF_UP).multiply(moneyReturn);
+        if (money.compareTo(moneyCondition) >= 0) {
+            result = money.divide(moneyCondition, 2, BigDecimal.ROUND_HALF_UP).multiply(moneyReturn);
         }
         return result;
     }
