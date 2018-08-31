@@ -21,6 +21,7 @@ public class CashContext {
     public CashContext(String type) {
         switch (type) {
             case "正常收费":
+                // 这就是一种多态，向上转型
                 CashSuper cashNormal = new CashNormal();
                 cs = cashNormal;
                 break;
