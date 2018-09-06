@@ -1,7 +1,7 @@
 package proxy;
 
 /**
- * java类简单作用描述
+ * 建一个公共的接口类
  *
  * @ProjectName: design-patterns
  * @Package: proxy
