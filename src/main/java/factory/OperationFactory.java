@@ -3,7 +3,7 @@ package factory;
 import org.springframework.stereotype.Component;
 
 /**
- * 简单工厂类
+ * 简单工厂类(工厂模式)
  *
  * @ProjectName: designpatterns
  * @Package: factory

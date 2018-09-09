@@ -1,7 +1,7 @@
 package proxy;
 
 /**
- * java类简单作用描述
+ * 代理模式
  *
  * @ProjectName: design-patterns
  * @Package: proxy

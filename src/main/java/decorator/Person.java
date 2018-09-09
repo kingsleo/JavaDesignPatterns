@@ -1,7 +1,7 @@
 package decorator;
 
 /**
- * 主类
+ * 主类(装饰器模式)
  *
  * @ProjectName: design-patterns
  * @Package: decorator

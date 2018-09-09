@@ -1,7 +1,7 @@
 package ifactory;
 
 /**
- * 雷锋工厂
+ * 雷锋工厂(工厂方法模式)
  *
  * @ProjectName: design-patterns
  * @Package: IFactory
