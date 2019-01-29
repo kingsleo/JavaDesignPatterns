@@ -13,7 +13,6 @@ package builder;
  * Copyright: Copyright (c) 2018
  **/
 abstract class Builder {
-
     public abstract void BuildPartA();
     public abstract void BuildPartB();
     public abstract Product GetResult();
